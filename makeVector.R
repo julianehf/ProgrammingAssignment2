@@ -1,8 +1,11 @@
+<<<<<<< HEAD
+=======
 # examples functions
 
 # The first function, makeVector creates a special "vector", 
 # which is really a list containing functions 
 
+>>>>>>> master
 makeVector <- function(x = numeric()) {
         m <- NULL
         set <- function(y) {
@@ -15,6 +18,9 @@ makeVector <- function(x = numeric()) {
         list(set = set, get = get,
              setmean = setmean,
              getmean = getmean)
+<<<<<<< HEAD
+}
+=======
 }
 
 ## The following function calculates the mean of the special 
@@ -35,3 +41,4 @@ cachemean <- function(x, ...) {
         x$setmean(m)
         m
 }     
+>>>>>>> master
